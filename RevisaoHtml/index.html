@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="">
+ <head>
+  <meta charset="utf-8" />
+  <title></title>
+  <link rel="stylesheet" href="style.css" />
+ </head>
+ <body>
+  <div class="tudo">
+   <form action="Form" method="post">
+    <label for="nome">Nome: </label>
+    <input type="text" name="nome" id="nome" />
+    <br />
+    <label for="email">Email: </label>
+    <input type="text" name="email" id="email" />
+    <br />
+    <label for="senha">Senha: </label>
+    <input type="password" name="senha" id="senha" />
+
+    <p>Sexo:</p>
+    <input type="radio" id="masculino" name="sexo" />
+    <label for="masculino">Masculino</label>
+    <input type="radio" id="feminino" name="sexo" />
+    <label for="feminino">Feminino</label>
+    <br />
+    <br />
+    
+    <p>Comida Preferida:</p>
+    <input type = "checkbox" id = "comida" name = "comida">
+    <label for = "comida"> Carne </label>
+    <input type = "checkbox" id = "comida2" name = "comida2">
+    <label for = "comida2"> Peixe </label>
+    <br />
+
+    <label for="DN">Data de Nascimento: </label>
+    <input type="date" id="datadeN" name="DN" />
+    <br />
+    <label id="idade" for="idade">Idade :</label>
+    <select name="idade" id="idade">
+     <option value="+18">Maior de 18</option>
+     <option value="-18">Menor de 18</option>
+    </select>
+    <br />
+
+    <p>Suas informações:</p>
+    <textarea name="info"></textarea>
+    <br />
+
+    <button type="submit" id="btn">Enviar</button>
+   </form>
+  </div>
+ </body>
+</html>
+
